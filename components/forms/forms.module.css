@@ -1,0 +1,65 @@
+.formWrapper{
+    padding: 1.5rem;
+    margin: auto;
+    border-width: .2rem;
+    width: 20rem;
+
+}
+.groupWrapper{
+    margin-bottom: 1rem;
+    display: block;
+    box-sizing: border-box;
+}
+.labelForm{
+    display: inline-block;
+    margin-bottom: .5rem;
+    box-sizing: border-box;
+}
+.inputForm{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.textAreaForm{
+    height: auto!important;
+}
+.btnForm{
+    margin: 0 auto;
+    display: block;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.btnWrapper{
+    margin-top: 10px;
+}
+.success{
+    color: #00ff3a;
+    border-color: #c3e6cb;
+}
+.error{
+    color: #ff0300;
+    border-color: #f5c6cb;
+}

@@ -1,0 +1,80 @@
+.textCenter{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+.textCenter:hover{
+    cursor: pointer;
+}
+.blogList{
+    height: 100rem;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.articleBody{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.articleWrapper{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.buttonWrapper{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display:inline-block;
+}
+.buttonViewMore{
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+}
+
+.fullArticleHeader{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: .5rem;
+    padding-top: 3.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.fullArticleText{
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    padding-top: 3.5rem;
+    font-weight: 500;
+    line-height: 1.8;
+}
+.commentBody{
+    font-size: 1rem;
+    margin-bottom: .5rem;
+    padding-top: 3.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    border-bottom: 1px solid #919191;
+}
